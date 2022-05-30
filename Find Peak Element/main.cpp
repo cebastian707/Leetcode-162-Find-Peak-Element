@@ -9,7 +9,7 @@ int findPeakElement(std::vector<int>& nums) {
 	int idx = 0;
 	//loop through the moutain
 	for (size_t i = 1; i < nums.size(); i++){
-		//if the current idx is bigger then pervious
+		//if the current idx is bigger then pervious i -1 
 		//were going up the moutain till the current idx i 
 		//is not bigger then i-1
 		if (nums[i] > nums[i-1]) {
